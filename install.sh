@@ -5,4 +5,4 @@ apt install subfinder
 apt install jq
 chmod +x crt.sh initial.sh iteratehosts.sh iterateips.sh awssearchbuckets.sh awsiteratebuckets.sh hunter.sh
 
-echo "Configure shodan-cli, add Grayhatwarfare API key to config.ini"
+echo "Configure Shodan CLI and add Grayhatwarfare API key to config.ini"
