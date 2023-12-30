@@ -11,7 +11,9 @@
 ## Installation
 
 sudo chmod +x install.sh
+
 sudo ./install.sh
+
 sudo chmod +x crt.sh initial.sh iteratehosts.sh iterateips.sh awssearchbuckets.sh awsiteratebuckets.sh hunter.sh
 
 Configure shodan-cli, add Grayhatwarfare API key to config.ini
