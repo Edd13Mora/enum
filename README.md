@@ -36,7 +36,7 @@ Generate a list of IP addresses from a file/list of subdomains, useful for using
 
 ### ./awssearchbuckets.sh "[search term]" (optional > [output file])
 
-Search for open AWS S3 buckets using the Grayhatwarfare API
+Search for open AWS S3 buckets by keyword using the Grayhatwarfare API
 
 ### ./awsiteratebuckets.sh [filename] (optional > [output file])
 
