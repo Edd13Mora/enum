@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Usage ./initial.sh <domain> <output file>"
-subfinder -d $1 -v -o $2 > /dev/null 2>&1
+subfinder -d $1 -v -o $2
 echo "Subdomain enumeration complete"
