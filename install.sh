@@ -1,4 +1,5 @@
 #!/bin/bash
+apt install python3-pip
 apt install subfinder
 apt install jq
 pip install -U --user shodan
