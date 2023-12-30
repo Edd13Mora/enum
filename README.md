@@ -8,16 +8,16 @@ Dependencies
 
 Usage
 
-./crt.sh [domain] > [output file]
+./crt.sh [domain] (optional > [output file]
 
-./initial.sh [domain] > [output file]
+./initial.sh [domain] [output file]
 
-./iteratehosts.sh [filename]
+./iteratehosts.sh [filename] (optional > [output file])
 
-./iterateips.sh [filename] > [output file]
+./iterateips.sh [filename] (optional > [output file])
 
-./awssearchbuckets.sh "[search term]" > [output file]
+./awssearchbuckets.sh "[search term]" (optional > [output file])
 
-./awsiteratebuckets.sh [filename]
+./awsiteratebuckets.sh [filename] (optional > [output file])
 
-./hunter.sh "[search term]"
+./hunter.sh "[search term]" (optional > [output file]
