@@ -4,7 +4,7 @@
 
 - Shodan CLI
 - nrich
-- subfinder
+- Subfinder
 - jq
 - Grayhatwarfare API key
 
@@ -14,7 +14,7 @@ sudo chmod +x install.sh
 
 sudo ./install.sh
 
-Configure shodan-cli, add Grayhatwarfare API key to config.ini
+Configure Shodan CLI, add Grayhatwarfare API key to config.ini
 
 ## Usage
 
