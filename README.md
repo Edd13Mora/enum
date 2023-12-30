@@ -28,7 +28,7 @@ Scan for subdomains in a domain or list of domains using Subfinder
 
 ### ./iteratehosts.sh [filename] (optional > [output file])
 
-Generate a list of IP address and hostnames from a file/list of subdomains
+Generate a list of IP addresses and hostnames from a file/list of subdomains
 
 ### ./iterateips.sh [filename] (optional > [output file])
 
