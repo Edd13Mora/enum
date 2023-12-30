@@ -2,6 +2,7 @@
 
 ## Dependencies
 
+- Python/PIP
 - Shodan CLI
 - nrich
 - Subfinder
