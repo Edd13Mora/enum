@@ -29,11 +29,11 @@ Scan for subdomains in a list of domains using Subfinder
 
 ### ./iteratehosts.sh [filename] (optional > [output file])
 
-Generate a list of IP addresses and hostnames from a file/list of subdomains
+Generate a list of IP addresses and hostnames from a file/list of domains or subdomains
 
 ### ./iterateips.sh [filename] (optional > [output file])
 
-Generate a list of IP addresses from a file/list of subdomains, useful for using with the nrich.sh and shodan.sh scripts
+Generate a list of IP addresses from a file/list of domains or subdomains, useful for using with the nrich.sh and shodan.sh scripts
 
 ### ./awssearchbuckets.sh "[search term]" (optional > [output file])
 
