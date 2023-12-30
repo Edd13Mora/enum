@@ -24,7 +24,7 @@ Pull domain names from SSL certificates using crt.sh
 
 ### ./initial.sh [domain] [output file]
 
-Scan for subdomains in a domain or list of domains using subfinder
+Scan for subdomains in a domain or list of domains using Subfinder
 
 ### ./iteratehosts.sh [filename] (optional > [output file])
 
@@ -36,7 +36,7 @@ Generate a list of IP addresses from a file/list of subdomains, useful for using
 
 ### ./awssearchbuckets.sh "[search term]" (optional > [output file])
 
-Search for open AWS S3 buckets using the grayhatwarfare API
+Search for open AWS S3 buckets using the Grayhatwarfare API
 
 ### ./awsiteratebuckets.sh [filename] (optional > [output file])
 
