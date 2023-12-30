@@ -22,9 +22,9 @@ Configure Shodan CLI and add Grayhatwarfare API key to config.ini
 
 Pull domain names from SSL certificates using crt.sh
 
-### ./initial.sh [domain] [output file]
+### ./initial.sh [filename] [output file]
 
-Scan for subdomains in a domain or list of domains using Subfinder
+Scan for subdomains in a list of domains using Subfinder
 
 ### ./iteratehosts.sh [filename] (optional > [output file])
 
