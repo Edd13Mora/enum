@@ -8,6 +8,14 @@
 - jq
 - Grayhatwarfare API key
 
+## Installation
+
+sudo chmod +x install.sh
+sudo ./install.sh
+sudo chmod +x crt.sh initial.sh iteratehosts.sh iterateips.sh awssearchbuckets.sh awsiteratebuckets.sh hunter.sh
+
+Configure shodan-cli, add Grayhatwarfare API key to config.ini
+
 ## Usage
 
 ### ./crt.sh [domain] (optional > [output file])
@@ -34,6 +42,6 @@ Search for open AWS S3 buckets using the grayhatwarfare API
 
 Search for the AmazonS3 string in the header paramater in a file/list of domains or subdomains
 
-./hunter.sh "[search term]" (optional > [output file])
+### ./hunter.sh "[search term]" (optional > [output file])
 
 Perform a vulnerability hunt by keyword, IP address or domain name using shodan-cli and nrich
