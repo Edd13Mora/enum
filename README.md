@@ -8,16 +8,30 @@ Dependencies
 
 Usage
 
-./crt.sh [domain] (optional > [output file]
+./crt.sh [domain] (optional > [output file])
+
+Pull domain names from SSL certificates using crt.sh
 
 ./initial.sh [domain] [output file]
 
+Scan for subdomains in a domain or list of domains using subfinder
+
 ./iteratehosts.sh [filename] (optional > [output file])
+
+Generate a list of IP address and hostnames from a file/list of subdomains
 
 ./iterateips.sh [filename] (optional > [output file])
 
+Generate a list of IP addresses from a file/list of subdomains, useful for using with the nrich.sh and shodan.sh scripts
+
 ./awssearchbuckets.sh "[search term]" (optional > [output file])
+
+Search for open AWS S3 buckets using the grayhatwarfare API
 
 ./awsiteratebuckets.sh [filename] (optional > [output file])
 
-./hunter.sh "[search term]" (optional > [output file]
+Search for the AmazonS3 string in the header paramater in a file/list of domains or subdomains
+
+./hunter.sh "[search term]" (optional > [output file])
+
+Perform a vulnerability hunt by keyword, IP address or domain name using shodan-cli and nrich
